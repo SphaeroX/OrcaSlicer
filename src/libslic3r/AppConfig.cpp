@@ -268,6 +268,10 @@ void AppConfig::set_defaults()
         set_bool("auto_arrange", true);
     }
 
+    if (get("random_placement_on_load").empty()) {
+        set_bool("random_placement_on_load", false);
+    }
+
     if (get("show_model_mesh").empty()) {
         set_bool("show_model_mesh", false);
     }
