@@ -6899,10 +6899,10 @@ msgid "Auto arrange plate after object cloning"
 msgstr "Automatinis plokštės išdėstymas po objekto klonavimo"
 
 msgid "Randomize model position on load"
-msgstr ""
+msgstr "Atsitiktinai pasirinkti modelio padėtį įkrovimo metu"
 
 msgid "Place new models at random positions on the build plate."
-msgstr ""
+msgstr "Įdėkite naujus modelius atsitiktinėse vietose ant pastatymo plokštės."
 
 msgid "Network"
 msgstr "Tinklas"

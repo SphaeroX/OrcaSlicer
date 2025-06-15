@@ -6726,10 +6726,10 @@ msgid "Auto arrange plate after object cloning"
 msgstr "객체를 복제한 후 플레이트를 자동으로 정렬합니다"
 
 msgid "Randomize model position on load"
-msgstr ""
+msgstr "로드 시 모델 위치 무작위화"
 
 msgid "Place new models at random positions on the build plate."
-msgstr ""
+msgstr "빌드 플레이트에 새로운 모델을 무작위 위치에 배치하십시오."
 
 msgid "Network"
 msgstr "네트워크"

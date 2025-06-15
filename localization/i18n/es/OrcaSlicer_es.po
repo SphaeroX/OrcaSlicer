@@ -6954,10 +6954,10 @@ msgid "Auto arrange plate after object cloning"
 msgstr "Disposición automática de la placa tras la clonación de objetos"
 
 msgid "Randomize model position on load"
-msgstr ""
+msgstr "Aleatorizar la posición del modelo en la carga"
 
 msgid "Place new models at random positions on the build plate."
-msgstr ""
+msgstr "Coloque nuevos modelos en posiciones aleatorias en la placa de construcción."
 
 msgid "Network"
 msgstr "Red"

@@ -6925,10 +6925,10 @@ msgid "Auto arrange plate after object cloning"
 msgstr "Автоматично впорядкувати об'єкти пластини після копіювання об'єкту"
 
 msgid "Randomize model position on load"
-msgstr ""
+msgstr "Випадково розташовувати модель під час завантаження"
 
 msgid "Place new models at random positions on the build plate."
-msgstr ""
+msgstr "Розмістіть нові моделі у випадкових позиціях на пластині збірки."
 
 msgid "Network"
 msgstr "Мережа"

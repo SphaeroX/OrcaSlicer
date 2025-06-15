@@ -6543,10 +6543,10 @@ msgid "Auto arrange plate after object cloning"
 msgstr ""
 
 msgid "Randomize model position on load"
-msgstr ""
+msgstr "読み込み時にモデルの位置をランダム化"
 
 msgid "Place new models at random positions on the build plate."
-msgstr ""
+msgstr "ビルドプレートのランダムな位置に新しいモデルを配置します。"
 
 msgid "Network"
 msgstr "ネットワーク (&N)"

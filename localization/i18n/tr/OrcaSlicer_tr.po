@@ -6860,10 +6860,10 @@ msgid "Auto arrange plate after object cloning"
 msgstr "Nesne klonlamadan sonra plakayı otomatik düzenleme"
 
 msgid "Randomize model position on load"
-msgstr ""
+msgstr "Yüklenirken model konumunu rastgele yap"
 
 msgid "Place new models at random positions on the build plate."
-msgstr ""
+msgstr "Yapı plakasına rastgele konumlara yeni modeller yerleştirin."
 
 msgid "Network"
 msgstr "Ağ"

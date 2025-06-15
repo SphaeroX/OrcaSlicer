@@ -7002,10 +7002,10 @@ msgid "Auto arrange plate after object cloning"
 msgstr "Авторасстановка моделей на печатной пластине при клонировании."
 
 msgid "Randomize model position on load"
-msgstr ""
+msgstr "Случайным образом размещать модель при загрузке"
 
 msgid "Place new models at random positions on the build plate."
-msgstr ""
+msgstr "Поместите новые модели в случайные положения на пластине сборки."
 
 msgid "Network"
 msgstr "Сеть"

@@ -6773,10 +6773,10 @@ msgid "Auto arrange plate after object cloning"
 msgstr "Automatische rangschikking van de plaat na het klonen van een object"
 
 msgid "Randomize model position on load"
-msgstr ""
+msgstr "Modelpositie randomiseren bij laden"
 
 msgid "Place new models at random positions on the build plate."
-msgstr ""
+msgstr "Plaats nieuwe modellen op willekeurige posities op de buildplaat."
 
 msgid "Network"
 msgstr "Netwerk"

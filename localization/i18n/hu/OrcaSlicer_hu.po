@@ -6671,10 +6671,10 @@ msgid "Auto arrange plate after object cloning"
 msgstr ""
 
 msgid "Randomize model position on load"
-msgstr ""
+msgstr "Véletlenszerűsítse a modell helyzetét a betöltéskor"
 
 msgid "Place new models at random positions on the build plate."
-msgstr ""
+msgstr "Helyezzen új modelleket véletlenszerű helyzetbe az építési lemezre."
 
 msgid "Network"
 msgstr ""

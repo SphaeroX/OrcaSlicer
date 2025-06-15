@@ -6937,10 +6937,10 @@ msgid "Auto arrange plate after object cloning"
 msgstr "Organitza automàticament la placa després de la clonació d'objectes"
 
 msgid "Randomize model position on load"
-msgstr ""
+msgstr "Aleatoritzeu la posició del model a la càrrega"
 
 msgid "Place new models at random positions on the build plate."
-msgstr ""
+msgstr "Col·loqueu nous models en posicions aleatòries a la placa de creació."
 
 msgid "Network"
 msgstr "Xarxa"
