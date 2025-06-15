@@ -6956,6 +6956,12 @@ msgstr "Disposizione automatica del piatto dopo la clonazione"
 msgid "Auto arrange plate after object cloning"
 msgstr "Disposizione automatica del piatto dopo la clonazione dell'oggetto"
 
+msgid "Randomize model position on load"
+msgstr "Randomizzare la posizione del modello al caricamento"
+
+msgid "Place new models at random positions on the build plate."
+msgstr "Posizionare nuovi modelli in posizioni casuali sulla piastra di costruzione."
+
 msgid "Network"
 msgstr "Rete"
 

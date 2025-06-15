@@ -6909,6 +6909,12 @@ msgstr "Automatyczne rozmieszczanie na płycie po powieleniu"
 msgid "Auto arrange plate after object cloning"
 msgstr "Automatyczne rozmieszcza obiekty na płycie po ich powieleniu"
 
+msgid "Randomize model position on load"
+msgstr "Losowo ustaw pozycję modelu przy wczytywaniu"
+
+msgid "Place new models at random positions on the build plate."
+msgstr "Umieść nowe modele w losowych pozycjach na płycie kompilacji."
+
 msgid "Network"
 msgstr "Sieć"
 

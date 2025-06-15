@@ -6996,6 +6996,12 @@ msgstr "Druckplatte nach dem Klonen automatisch anordnen"
 msgid "Auto arrange plate after object cloning"
 msgstr "Druckplatte nach dem Klonen von Objekten automatisch anordnen"
 
+msgid "Randomize model position on load"
+msgstr "Modellposition beim Laden zufällig wählen"
+
+msgid "Place new models at random positions on the build plate."
+msgstr "Platzieren Sie neue Modelle an zufälligen Positionen auf der Bauplatte."
+
 msgid "Network"
 msgstr "Netzwerk"
 

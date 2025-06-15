@@ -6751,6 +6751,12 @@ msgstr ""
 msgid "Auto arrange plate after object cloning"
 msgstr ""
 
+msgid "Randomize model position on load"
+msgstr "Randomizovat polohu modelu na zatížení"
+
+msgid "Place new models at random positions on the build plate."
+msgstr "Umístěte nové modely na náhodné pozice na stavební desku."
+
 msgid "Network"
 msgstr "Síť"
 

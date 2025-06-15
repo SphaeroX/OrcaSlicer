@@ -6664,6 +6664,12 @@ msgstr ""
 msgid "Auto arrange plate after object cloning"
 msgstr ""
 
+msgid "Randomize model position on load"
+msgstr "Slumpa modellens position vid inladdning"
+
+msgid "Place new models at random positions on the build plate."
+msgstr "Placera nya modeller med slumpmässiga positioner på byggplattan."
+
 msgid "Network"
 msgstr ""
 

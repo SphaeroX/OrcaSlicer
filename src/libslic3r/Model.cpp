@@ -12,6 +12,7 @@
 
 #include "Format/AMF.hpp"
 #include "Format/svg.hpp"
+#include <random>
 // BBS
 #include "FaceDetector.hpp"
 
@@ -701,7 +702,37 @@ bool Model::center_instances_around_point(const Vec2d &point)
 			i->set_offset(i->get_offset() + shift3);
 		o->invalidate_bounding_box();
 	}
-	return true;
+        return true;
+}
+
+bool Model::randomize_instances_within_buildvolume(const BuildVolume &build_volume)
+{
+    // Calculate bounding box of all instances
+    BoundingBoxf3 bb;
+    for (ModelObject *o : this->objects)
+        for (size_t i = 0; i < o->instances.size(); ++ i)
+            bb.merge(o->instance_bounding_box(i, false));
+
+    BoundingBoxf bed_bb = build_volume.bounding_volume2d();
+
+    double margin_x = 0.5 * bb.size().x();
+    double margin_y = 0.5 * bb.size().y();
+
+    double min_x = bed_bb.min.x() + margin_x;
+    double max_x = bed_bb.max.x() - margin_x;
+    double min_y = bed_bb.min.y() + margin_y;
+    double max_y = bed_bb.max.y() - margin_y;
+
+    if (min_x > max_x || min_y > max_y)
+        return false; // Object larger than bed
+
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_real_distribution<double> dist_x(min_x, max_x);
+    std::uniform_real_distribution<double> dist_y(min_y, max_y);
+
+    Vec2d random_point(dist_x(gen), dist_y(gen));
+    return center_instances_around_point(random_point);
 }
 
 // flattens everything to a single mesh

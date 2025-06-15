@@ -6572,6 +6572,12 @@ msgstr ""
 msgid "Auto arrange plate after object cloning"
 msgstr ""
 
+msgid "Randomize model position on load"
+msgstr "加载时随机化模型位置"
+
+msgid "Place new models at random positions on the build plate."
+msgstr "将新模型随机放置在构建板上。"
+
 msgid "Network"
 msgstr "网络"
 

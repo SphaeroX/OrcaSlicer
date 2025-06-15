@@ -3330,7 +3330,9 @@ void Plater::priv::update(unsigned int flags)
     // the following line, when enabled, causes flickering on NVIDIA graphics cards
 //    wxWindowUpdateLocker freeze_guard(q);
 #ifdef SUPPORT_AUTOCENTER
-    if (get_config("autocenter") == "true")
+    if (wxGetApp().app_config->get_bool("random_placement_on_load"))
+        model.randomize_instances_within_buildvolume(this->bed.build_volume());
+    else if (get_config("autocenter") == "true")
         model.center_instances_around_point(this->bed.build_volume().bed_center());
 #endif
 

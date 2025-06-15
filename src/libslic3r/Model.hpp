@@ -1616,6 +1616,8 @@ public:
     unsigned int  update_print_volume_state(const BuildVolume &build_volume);
     // Returns true if any ModelObject was modified.
     bool 		  center_instances_around_point(const Vec2d &point);
+    // Randomly place all instances within the provided build volume. Returns true if moved.
+    bool                  randomize_instances_within_buildvolume(const BuildVolume &build_volume);
     void 		  translate(coordf_t x, coordf_t y, coordf_t z) { for (ModelObject *o : this->objects) o->translate(x, y, z); }
     TriangleMesh  mesh() const;
 

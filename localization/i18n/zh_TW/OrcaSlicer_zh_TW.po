@@ -6593,6 +6593,12 @@ msgstr "複製後自動排列列印板"
 msgid "Auto arrange plate after object cloning"
 msgstr "物件複製後自動排列列印板"
 
+msgid "Randomize model position on load"
+msgstr "載入時隨機化模型位置"
+
+msgid "Place new models at random positions on the build plate."
+msgstr "將新模型隨機放置在構建板上。"
+
 msgid "Network"
 msgstr "網路"
 
