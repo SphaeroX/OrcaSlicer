@@ -6725,6 +6725,12 @@ msgstr "복제 후 플레이트 자동 정렬"
 msgid "Auto arrange plate after object cloning"
 msgstr "객체를 복제한 후 플레이트를 자동으로 정렬합니다"
 
+msgid "Randomize model position on load"
+msgstr ""
+
+msgid "Place new models at random positions on the build plate."
+msgstr ""
+
 msgid "Network"
 msgstr "네트워크"
 

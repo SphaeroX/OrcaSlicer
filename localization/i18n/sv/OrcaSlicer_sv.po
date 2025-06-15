@@ -6664,6 +6664,12 @@ msgstr ""
 msgid "Auto arrange plate after object cloning"
 msgstr ""
 
+msgid "Randomize model position on load"
+msgstr ""
+
+msgid "Place new models at random positions on the build plate."
+msgstr ""
+
 msgid "Network"
 msgstr ""
 

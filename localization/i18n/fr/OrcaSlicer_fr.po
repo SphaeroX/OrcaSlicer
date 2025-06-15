@@ -6999,6 +6999,12 @@ msgstr "Arrangement automatique de la plaque après le clonage"
 msgid "Auto arrange plate after object cloning"
 msgstr "Arrangement automatique de la plaque après le clonage de l’objet"
 
+msgid "Randomize model position on load"
+msgstr ""
+
+msgid "Place new models at random positions on the build plate."
+msgstr ""
+
 msgid "Network"
 msgstr "Réseau"
 
